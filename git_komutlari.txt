@@ -1,0 +1,22 @@
+git init
+git add .
+git commit -m "commit adı"
+git commit --amend -m "commit adını değiştir"
+git log
+git status
+
+git stash
+git stash list
+git stash pop ==> en sondakini çağırıp siliyor.
+git stash apply stash@{0}
+git stash drop stash@{0}
+
+git branch
+git branch backend
+git checkout backend
+git branch -v
+git diff master backend
+
+git checkout master
+git merge frontend
+
